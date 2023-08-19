@@ -16,13 +16,13 @@ const Hero = () => {
           </div>
         </div>
         <img
-          src="../src/assets/img/images/header_4_bubble.png"
+          src="../assets/img/images/header_4_bubble.png"
           alt=""
           className="bubble"
         />
       </div>
       <img
-        src="./src/assets/img/images/header_4_wave.png"
+        src="../assets/img/images/header_4_wave.png"
         alt=""
         className="wave"
       />

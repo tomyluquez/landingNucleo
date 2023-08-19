@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import ButtonNavbar from '../Components/ButtonNavbar';
 import Ulnavbar from '../Components/Ulnavbar';
+import logoNucleo from '../assets/img/Nucleo-img/Nucleo_Check_Logovariables-02.png';
 
 const Navbar = () => {
   const [navScroll, setNavScroll] = useState(false);
@@ -29,10 +30,7 @@ const Navbar = () => {
     >
       <div className="container">
         <a className="navbar-brand" href="#" data-scroll-nav="0">
-          <img
-            src="../src/assets/img/Nucleo-img/Nucleo_Check_Logovariables-02.png"
-            alt="Logo nucleo Check"
-          />
+          <img src={logoNucleo} alt="Logo nucleo Check" />
         </a>
         <button
           className={`navbar-toggler ${menuOpen ? '' : 'collapsed'}`}
