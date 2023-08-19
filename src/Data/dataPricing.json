@@ -1,0 +1,95 @@
+{
+    "data": [
+        {
+            "id" : 1,
+            "icon": "fa-solid fa-leaf",
+            "title" : "Plan Inicial",
+            "price" : "6.000",
+            "yearPrice" : "60.000",
+            "description" : "Con este plan podrás utilizar las principales funciones del sistema. Cuando quieras podrás subir de plan.",
+            "ul": [
+                {
+                    "id" : 1,
+                    "icon" : "fa-solid fa-user",
+                    "text" : "1 usuario"
+                },
+                {
+                    "id" : 2,
+                    "icon" : "fa-solid fa-money-bill",
+                    "text" : "Facturacion electronica"
+                }
+            ],
+            "textButton" : "Suscribite ahora",
+            "elegido" : false
+        },
+        {
+            "id" : 2,
+            "icon": "fa-solid fa-star",
+            "title" : "Plan Premium",
+            "price" : "8000",
+            "yearPrice" : "84.000",
+            "description" : "Este plan incluye lo mismo del anterior más.... Cuando quieras podrás subir de plan.",
+            "ul": [
+                {
+                    "id" : 1,
+                    "icon" : "fa-solid fa-user",
+                    "text" : "2 usuarios"
+                },
+                {
+                    "id" : 2,
+                    "icon" : "fa-solid fa-money-bill",
+                    "text" : "Facturacion electronica"
+                },
+                {
+                    "id" : 3,
+                    "icon" : "fa-solid fa-tablet-screen-button",
+                    "text" : "Tablet para mozos"
+                },
+                {
+                    "id" : 4,
+                    "icon" : "fa-solid fa-motorcycle",
+                    "text" : "Intergacion con apps de delivery"
+                }
+            ],
+            "textButton" : "Suscribite ahora",
+            "elegido" : true
+        },
+        {
+            "id" : 3,
+            "icon": "fa-solid fa-meteor",
+            "title" : "Plan Superior",
+            "price" : "10000",
+            "yearPrice" : "108.000",
+            "description" : "Este plan incluye lo mismo del anterior más.... Cuando quieras podrás subir de plan.",
+            "ul": [
+                {
+                    "id" : 1,
+                    "icon" : "fa-solid fa-user",
+                    "text" : "3 usuarios"
+                },
+                {
+                    "id" : 2,
+                    "icon" : "fa-solid fa-money-bill",
+                    "text" : "Facturacion electronica"
+                },
+                {
+                    "id" : 3,
+                    "icon" : "fa-solid fa-tablet-screen-button",
+                    "text" : "Tablet para mozos"
+                },
+                {
+                    "id" : 4,
+                    "icon" : "fa-solid fa-motorcycle",
+                    "text" : "Intergacion con apps de delivery"
+                },
+                {
+                    "id" : 5,
+                    "icon" : "fa-solid fa-utensils",
+                    "text" : "Pedidos de comensal en mesa"
+                }
+            ],
+            "textButton" : "Suscribite ahora",
+            "elegido" : false
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "text": "Caracteristicas",
+            "href": "#features"
+        },
+        {
+            "id": 2,
+            "text": "Nosotros",
+            "href" : "#about"
+        },
+        {
+            "id": 3,
+            "text": "Integraciones",
+            "href" : "#integraciones"
+        },
+        {
+            "id": 4,
+            "text": "Pantallas",
+            "href" : "#pantallas"
+        },
+        {
+            "id": 5,
+            "text": "Clientes",
+            "href" : "#clientes"
+        },
+        {
+            "id": 6,
+            "text": "Precios",
+            "href" : "#precios"
+        },
+        {
+            "id": 7,
+            "text": "Faq",
+            "href" : "#faq"
+        }
+        
+    ]
+}

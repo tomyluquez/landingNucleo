@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "src": "src/assets/img/Screenshots/1.png"
+        },
+        {
+            "id": 2,
+            "src": "src/assets/img/Screenshots/2.png"
+        },
+        {
+            "id": 3,
+            "src": "src/assets/img/Screenshots/3.jpg"
+        },
+        {
+            "id": 4,
+            "src": "src/assets/img/Screenshots/4.png"
+        },
+        {
+            "id": 5,
+            "src": "src/assets/img/Screenshots/5.png"
+        }
+    ]
+}

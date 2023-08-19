@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "href" : "https://www.instagram.com/nucleoit/",
+            "icon" : "fab fa-instagram",
+            "title" : "Instagram",
+            "text": "Novedades + Presentaciones"
+        },
+        {
+            "id": 2,
+            "href" : "https://www.youtube.com/nucleoit",
+            "icon" : "fab fa-youtube",
+            "title" : "Youtube",
+            "text": "Videos de presentación y tutoriales"
+        },
+        {
+            "id": 3,
+            "href" : "https://www.linkedin.com/company/n%C3%BAcleo-it/",
+            "icon" : "fab fa-linkedin",
+            "title" : "Linkedin",
+            "text": "Búsquedas laborales + Contenido"
+        }
+    ]
+}

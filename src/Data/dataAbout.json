@@ -1,0 +1,84 @@
+{
+    "dataFirst": [
+        {
+            "id": 1,
+            "icon": "fas fa-tag",
+            "text": "Solo escaneando un QR, sin necesidad de bajar una App"
+        },
+        {
+            "id": 2,
+            "icon": "fas fa-sync",
+            "text": "Sincronización instantánea con el software"
+        },
+        {
+            "id": 3,
+            "icon": "fas fa-text-width",
+            "text": "Circuito completo 100% integrado"
+        }
+    ],
+    "dataSecond": [
+        {
+            "id" : 1,
+            "textHeader": "Create and Save your notes with multi-media",
+            "description" : "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to anote.",
+            "collapse": true
+        },
+        {
+            "id" : 2,
+            "textHeader": "Web Clipper Extension",
+            "description" : "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to anote.",
+            "collapse": false
+        },
+        {
+            "id" : 3,
+            "textHeader": "Protect your note with lock",
+            "description" : "Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to anote.",
+            "collapse": false
+        }
+    ],
+    "dataThird": [
+        {
+            "id":1,
+            "op": false,
+            "text": "Filtering notes using matched keywords"
+        },
+        {
+            "id":2,
+            "op": true,
+            "text": "8 Beautiful themes for you select"
+        },
+        {
+            "id":3,
+            "op": false,
+            "text": "Save energy for your device"
+        },
+        {
+            "id":4,
+            "op": false,
+            "text": "Easy to switch between light and dark mode"
+        }
+    ],
+    "dataIntegraciones":[
+        {
+            "id": 1,
+            "src": "/src/assets/img/Images/intg1.png" 
+        },
+        {
+            "id": 2,
+            "src": "/src/assets/img/Images/intg2.png" 
+        },
+        {
+            "id": 3,
+            "src": "/src/assets/img/Images/intg3.png" 
+        },
+        {
+            "id": 4,
+            "src": "/src/assets/img/Images/intg4.png" 
+        },
+        {
+            "id": 5,
+            "src": "/src/assets/img/Images/intg5.png" 
+        }
+        
+    ]
+}
