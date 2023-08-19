@@ -1,8 +1,7 @@
 {
     "data":[
         {
-            "id" : 1,
-            "src": "../assets/img/Testimonials/user4.png",
+            "id" : 4,
             "text1": "“You can even send emails to Evernote and gather",
             "text2" : "all of the things you need in a single place.”",
             "name": "jurgen k."    ,
@@ -10,16 +9,14 @@
             "puesto" : "/ Senior Marketing at"   
         },
         {
-            "id" : 2,
-            "src": "../assets/img/Testimonials/user5.png",
+            "id" : 5,
             "text1": "“Notero - 1st my choice for notes app. Awesome”",
             "name": "foden p."    ,
             "company": "Ecoland Resort",
             "puesto" : "/ Director at"   
         },
         {
-            "id" : 3,
-            "src": "../assets/img/Testimonials/user6.png",
+            "id" : 6,
             "text1": "“.This app is seriously good. It’s simple, clean and",
             "text2" : "a real joy to use.”",
             "name": "Kerry T."    ,

@@ -3,6 +3,9 @@ import dataTestimonials from '../Data/dataTestimonials.json';
 import imgTesti1 from '../assets/img/Testimonials/testi_s4_ic1.png';
 import imgTesti2 from '../assets/img/Testimonials/testi_s4_ic2.png';
 import imgTesti3 from '../assets/img/icons/contact_globe.svg';
+import imgTestimo4 from '../assets/img/Testimonials/user4.png';
+import imgTestimo5 from '../assets/img/Testimonials/user5.png';
+import imgTestimo6 from '../assets/img/Testimonials/user6.png';
 
 const Testimonials = () => {
   return (
@@ -78,7 +81,16 @@ const Testimonials = () => {
                 {dataTestimonials.data.map((item) => (
                   <div key={item.id} className="client_card">
                     <div className="user_img">
-                      <img src={item.src} alt="" />
+                      <img
+                        src={
+                          item.id === 4
+                            ? imgTestimo4
+                            : item.id === 5
+                            ? imgTestimo5
+                            : item.id === 6 && imgTestimo6
+                        }
+                        alt=""
+                      />
                     </div>
                     <div className="inf_content">
                       <div className="stars mb-2">

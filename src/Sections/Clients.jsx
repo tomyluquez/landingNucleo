@@ -1,5 +1,12 @@
 import { useEffect, useRef } from 'react';
 import dataClient from '../Data/dataClients.json';
+import imgClient1 from '../assets/img/Logos/1.png';
+import imgClient2 from '../assets/img/Logos/2.png';
+import imgClient3 from '../assets/img/Logos/3.png';
+import imgClient4 from '../assets/img/Logos/4.png';
+import imgClient5 from '../assets/img/Logos/5.png';
+import imgClient6 from '../assets/img/Logos/6.png';
+
 const Clients = () => {
   const sliderClients = useRef(null);
 
@@ -49,7 +56,19 @@ const Clients = () => {
               <div key={client.id} className="col-6 col-lg-2 spanHover">
                 <a href="#" className="img d-block">
                   <img
-                    src={client.img}
+                    src={
+                      client.id === 1
+                        ? imgClient1
+                        : client.id === 2
+                        ? imgClient2
+                        : client.id === 3
+                        ? imgClient3
+                        : client.id === 4
+                        ? imgClient4
+                        : client.id === 5
+                        ? imgClient5
+                        : imgClient6
+                    }
                     alt={client.alt}
                     style={{ width: '100%' }}
                   />

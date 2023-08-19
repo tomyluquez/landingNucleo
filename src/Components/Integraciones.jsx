@@ -2,6 +2,12 @@ import dataAbout from '../Data/dataAbout.json';
 import backInteg from '../assets/img/Images/intg_back.png';
 import aboutWave from '../assets/img/Images/about_s4_wave.png';
 import Titles from './Titles';
+import imgInte1 from '../assets/img/Images/intg1.png';
+import imgInte2 from '../assets/img/Images/intg2.png';
+import imgInte3 from '../assets/img/Images/intg3.png';
+import imgInte4 from '../assets/img/Images/intg4.png';
+import imgInte5 from '../assets/img/Images/intg5.png';
+
 const Integraciones = () => {
   return (
     <>
@@ -21,7 +27,17 @@ const Integraciones = () => {
             {dataAbout.dataIntegraciones.map((item) => (
               <div key={item.id} className="img">
                 <img
-                  src={item.src}
+                  src={
+                    item.id === 1
+                      ? imgInte1
+                      : item.id === 2
+                      ? imgInte2
+                      : item.id === 3
+                      ? imgInte3
+                      : item.id === 4
+                      ? imgInte4
+                      : item.id === 5 && imgInte5
+                  }
                   alt={`Logo Integracion ${item.id}`}
                   className="mt-30"
                 />
