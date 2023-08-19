@@ -1,4 +1,5 @@
 import InfoHero from '../Components/InfoHero';
+import imgHero from '../assets/img/images/header_4.png';
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
             <InfoHero />
             <div className="col-lg-6">
               <div className="img">
-                <img src="../src/assets/img/images/header_4.png" alt="" />
+                <img src={imgHero} alt="" />
               </div>
             </div>
           </div>
