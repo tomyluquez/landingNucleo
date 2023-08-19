@@ -1,4 +1,5 @@
 import dataScreenshots from '../Data/dataScreenshots.json';
+import imgHand from '../assets/img/Screenshots/hand.png';
 
 const Screenshots = () => {
   return (
@@ -23,11 +24,7 @@ const Screenshots = () => {
           </div>
         </div>
       </div>
-      <img
-        src="src/assets/img/Screenshots/hand.png"
-        alt=""
-        className="mob-hand"
-      />
+      <img src={imgHand} alt="" className="mob-hand" />
     </section>
   );
 };

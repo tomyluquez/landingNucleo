@@ -1,5 +1,6 @@
 import Titles from '../Components/Titles';
 import dataFeatures from '../Data/dataFeatures.json';
+import imgCircle from '../assets/img/images/feat_circle.png';
 const Features = () => {
   return (
     <section className="features pt-70 pb-70 style-4" id="features">
@@ -23,11 +24,7 @@ const Features = () => {
           ))}
         </div>
       </div>
-      <img
-        src="../src/assets/img/images/feat_circle.png"
-        alt=""
-        className="img-circle"
-      />
+      <img src={imgCircle} alt="" className="img-circle" />
     </section>
   );
 };

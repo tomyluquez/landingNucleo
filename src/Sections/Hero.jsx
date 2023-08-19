@@ -1,5 +1,7 @@
 import InfoHero from '../Components/InfoHero';
 import imgHero from '../assets/img/Images/header_4.png';
+import imgHero2 from '../assets/img/Images/header_4_bubble.png';
+import imgHero3 from '../assets/img/Images/header_4_wave.png';
 
 const Hero = () => {
   return (
@@ -15,17 +17,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <img
-          src="../assets/img/images/header_4_bubble.png"
-          alt=""
-          className="bubble"
-        />
+        <img src={imgHero2} alt="" className="bubble" />
       </div>
-      <img
-        src="../assets/img/images/header_4_wave.png"
-        alt=""
-        className="wave"
-      />
+      <img src={imgHero3} alt="" className="wave" />
     </header>
   );
 };

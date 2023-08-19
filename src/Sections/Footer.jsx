@@ -1,3 +1,5 @@
+import logoNucleo from '../assets/img/Nucleo-img/Nucleo_Check_Logovariables-02.png';
+import imgWave from '../assets/img/Images/footer_4_wave.png';
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -43,10 +45,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-2">
               <div className="logo">
-                <img
-                  src="src/assets/img/Nucleo-img/Nucleo_Check_Logovariables-02.png"
-                  alt=""
-                />
+                <img src={logoNucleo} alt="" />
               </div>
             </div>
             <div className="col-lg-8">
@@ -82,11 +81,7 @@ const Footer = () => {
           </small>
         </div>
       </div>
-      <img
-        src="src/assets/img/Images/footer_4_wave.png"
-        alt=""
-        className="wave"
-      />
+      <img src={imgWave} alt="" className="wave" />
     </footer>
   );
 };

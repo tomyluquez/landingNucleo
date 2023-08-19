@@ -2,31 +2,31 @@
     "data":[
         {
             "id" : 1,
-            "src" : "../src/assets/img/Logos/fe1.png",
+            "src" : "/assets/img/Logos/fe1.png",
             "text1" : "¡100% online! Alojado",
             "text2" : "los servidores de Microsoft"
         },
         {
             "id" : 2,
-            "src" : "../src/assets/img/Logos/fe2.png",
+            "src" : "/assets/img/Logos/fe2.png",
             "text1" : "Diseñado y pensado",
             "text2" : "para gastronomia"
         },
         {
             "id" : 3,
-            "src" : "../src/assets/img/Logos/fe3.png",
+            "src" : "/assets/img/Logos/fe3.png",
             "text1" : "Integrado con todas las Apps",
             "text2" : "de pedidos y mas"
         },
         {
             "id" : 4,
-            "src" : "../src/assets/img/Logos/fe4.png",
+            "src" : "/assets/img/Logos/fe4.png",
             "text1" : "Centralizador",
             "text2" : "para sucursales o franquicias"
         },
         {
             "id" : 5,
-            "src" : "../src/assets/img/Logos/fe5.png",
+            "src" : "/assets/img/Logos/fe5.png",
             "text1" : "Reportería y auditoría",
             "text2" : "inteligente"
         }

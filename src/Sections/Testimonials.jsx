@@ -1,5 +1,8 @@
 import Titles from '../Components/Titles';
 import dataTestimonials from '../Data/dataTestimonials.json';
+import imgTesti1 from '../assets/img/Testimonials/testi_s4_ic1.png';
+import imgTesti2 from '../assets/img/Testimonials/testi_s4_ic2.png';
+import imgTesti3 from '../assets/img/icons/contact_globe.svg';
 
 const Testimonials = () => {
   return (
@@ -25,10 +28,7 @@ const Testimonials = () => {
               <div className="numbs">
                 <div className="num-card">
                   <div className="icon img-contain">
-                    <img
-                      src="src/assets/img/Testimonials/testi_s4_ic1.png"
-                      alt=""
-                    />
+                    <img src={imgTesti1} alt="" />
                   </div>
                   <h2>2,5M+</h2>
                   <p>
@@ -37,10 +37,7 @@ const Testimonials = () => {
                 </div>
                 <div className="num-card">
                   <div className="icon img-contain">
-                    <img
-                      src="src/assets/img/Testimonials/testi_s4_ic2.png"
-                      alt=""
-                    />
+                    <img src={imgTesti2} alt="" />
                   </div>
                   <h2>4.8/5</h2>
                   <div className="stars">
@@ -104,11 +101,7 @@ const Testimonials = () => {
                     </div>
                   </div>
                 ))}
-                <img
-                  src="src/assets/img/icons/contact_globe.svg"
-                  alt=""
-                  className="testi-globe"
-                />
+                <img src={imgTesti3} alt="" className="testi-globe" />
               </div>
             </div>
           </div>
