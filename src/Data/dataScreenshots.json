@@ -2,23 +2,23 @@
     "data": [
         {
             "id": 1,
-            "src": "/assets/img/Screenshots/1.png"
+            "src": "../assets/img/Screenshots/1.png"
         },
         {
             "id": 2,
-            "src": "/assets/img/Screenshots/2.png"
+            "src": "../assets/img/Screenshots/2.png"
         },
         {
             "id": 3,
-            "src": "/assets/img/Screenshots/3.jpg"
+            "src": "../assets/img/Screenshots/3.jpg"
         },
         {
             "id": 4,
-            "src": "/assets/img/Screenshots/4.png"
+            "src": "../assets/img/Screenshots/4.png"
         },
         {
             "id": 5,
-            "src": "/assets/img/Screenshots/5.png"
+            "src": "../assets/img/Screenshots/5.png"
         }
     ]
 }
