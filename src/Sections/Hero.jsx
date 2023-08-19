@@ -1,5 +1,5 @@
 import InfoHero from '../Components/InfoHero';
-import imgHero from '../assets/img/images/header_4.png';
+import imgHero from '../assets/img/Images/header_4.png';
 
 const Hero = () => {
   return (
